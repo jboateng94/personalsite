@@ -49,3 +49,16 @@
 
 @include motion-ui-transitions;
 @include motion-ui-animations;
+
+header{
+	text-align: center;
+
+	.icon-bar{
+		a{
+			i{
+				color: purple;
+			}
+		}
+
+	}
+}

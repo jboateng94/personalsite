@@ -63,10 +63,10 @@ body{
 		.icon-bar{
 			position: fixed;
 			display: block;
-			background: #C5CBD3;
-			width: 100vw;
+			//  background: #C5CBD3;
+			width: 100%;
 			margin: 0;
-			padding: 0;
+			padding-bottom: 0;
 			a{
 				i{
 					color: purple;
@@ -79,12 +79,13 @@ body{
 	img#banner{
 		display: inline-block;
 		width: 100%;
-		padding:1px;
-   		background-color: grey;
+		padding-top: 49px;
 	}
 
 	main{
-		
+		.row{
+			padding-top: 50px;
+		}
 	}
 
 	footer{

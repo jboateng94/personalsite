@@ -50,26 +50,51 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
-header{
-	text-align: center;
+body{
 
-	.icon-bar{
-		position: relative;
-		a{
-			i{
-				color: purple;
+	//border: solid 2.5px black;
+	padding: 5px;
+
+	header{
+		text-align: center;
+
+		
+
+		.icon-bar{
+			position: fixed;
+			display: block;
+			background: #C5CBD3;
+			width: 100vw;
+			margin: 0;
+			padding: 0;
+			a{
+				i{
+					color: purple;
+				}
 			}
 		}
+
 	}
 
-	#banner{
-		list-style-type: none;
+	img#banner{
+		display: inline-block;
+		width: 100%;
+		padding:1px;
+   		background-color: grey;
+	}
+
+	main{
 		
 	}
 
-	img{
-		padding:1px;
-   		border:2.5px solid purple;
-   		background-color: grey;
+	footer{
+
 	}
+
 }
+
+
+
+
+
+

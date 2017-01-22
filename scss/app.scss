@@ -63,10 +63,8 @@ body{
 		.icon-bar{
 			position: fixed;
 			display: block;
-			//  background: #C5CBD3;
 			width: 100%;
 			margin: 0;
-			padding-bottom: 0;
 			a{
 				i{
 					color: purple;
@@ -85,7 +83,22 @@ body{
 	main{
 		.row{
 			padding-top: 50px;
+
 		}
+
+		#bio{
+			padding-top: 50px;
+		}
+
+		#experience{
+			padding-top: 50px;
+		}
+
+		#skills{
+			padding-top: 50px;
+
+		}
+
 	}
 
 	footer{

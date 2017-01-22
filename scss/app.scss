@@ -55,23 +55,26 @@ body{
 	//border: solid 2.5px black;
 	padding: 5px;
 
+
 	header{
 		text-align: center;
+		.row{
 
-		
-
-		.icon-bar{
-			position: fixed;
-			display: block;
-			width: 100%;
-			margin: 0;
-			a{
-				i{
-					color: purple;
-				}
+			#topbar{
+				display: inline-block;
+				.icon-bar, .four-up{
+					position: fixed;
+					display: block;
+					width: 100%;
+					margin: 0;
+					a{
+						i{
+							padding: 0 40px; 
+							color: purple;
+						}
+					}
 			}
 		}
-
 	}
 
 	img#banner{
@@ -81,28 +84,35 @@ body{
 	}
 
 	main{
-		.row{
-			padding-top: 50px;
+		// .row{
+		// 	padding-top: 50px;
 
-		}
+		// }
 
 		#bio{
-			padding-top: 50px;
+			padding-top: 55px;
 		}
 
 		#experience{
-			padding-top: 50px;
+			padding-top: 55px;
 		}
 
 		#skills{
-			padding-top: 50px;
+			padding-top: 55px;
 
 		}
 
 	}
 
 	footer{
+		text-align: center;
 
+		a{
+			i{
+				color: purple;
+				padding: 40px;
+			}
+		}
 	}
 
 }

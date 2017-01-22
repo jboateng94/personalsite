@@ -53,7 +53,7 @@
 body{
 
 	//border: solid 2.5px black;
-	padding: 5px;
+	// padding: 5px;
 	background-color: #415A77;
 
 
@@ -62,7 +62,8 @@ body{
 
 		.row{
 
-			h1, h3{
+			h1{
+				font-family: 'Bungee Shade', cursive;
 				color: white;
 			}
 
@@ -92,7 +93,7 @@ body{
 		background-color: white;
 
 		#bio{
-			padding-top: 55px;
+			padding-top: 60px;
 		}
 
 		#experience{

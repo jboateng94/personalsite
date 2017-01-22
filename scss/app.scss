@@ -60,19 +60,17 @@ body{
 		text-align: center;
 		.row{
 
-			#topbar{
-				display: inline-block;
-				.icon-bar, .four-up{
-					position: fixed;
-					display: block;
-					width: 100%;
-					margin: 0;
-					a{
-						i{
-							padding: 0 40px; 
-							color: purple;
-						}
+			.icon-bar{
+				position: fixed;
+				display: block;
+				width: 100vw;
+				margin: 0;
+				a{
+					i{
+						padding: 0 15px; 
+						color: purple;
 					}
+				}
 			}
 		}
 	}
@@ -80,7 +78,7 @@ body{
 	img#banner{
 		display: inline-block;
 		width: 100%;
-		padding-top: 49px;
+		padding-top: 50px;
 	}
 
 	main{
@@ -98,6 +96,11 @@ body{
 		}
 
 		#skills{
+			padding-top: 55px;
+
+		}
+
+		#hobbies{
 			padding-top: 55px;
 
 		}

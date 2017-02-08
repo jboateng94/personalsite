@@ -97,22 +97,15 @@ body{
 
 		background-color: white;
 
-		#bio{
-			padding-top: 60px;
+		padding: 65px;
+
+		.chapter1{
+			left: -100px;
 		}
 
-		#experience{
-			padding-top: 55px;
+		.chapter2{
+			right: -100px;
 		}
-
-		#skills{
-			padding-top: 55px;
-		}
-
-		#hobbies{
-			padding-top: 60px;
-		}
-
 	}
 
 	footer{
